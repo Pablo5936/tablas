@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/idex.css" />
+    <link rel="icon" type="imeg/png" href="./img/table.png" />
+    <meta name="autor" content="Juan Pablo Torres Rios" />
+    <title>Tablas</title>
+  </head>
+  <body>
+    <h1>TABLAS HTML</h1>
+    <hr />
+    <h2>¿Qué son y para que sirven las tablas HTML?</h2>
+    <p>
+      Las tablas HTML son herramientas usadas para organizar información en
+      páginas web. Funcionan como las tablas que puedes encontrar en una hoja de
+      cálculo o en un documento de texto, con filas y columnas que permiten
+      presentar los datos de forma estructurada.
+    </p>
+
+    <p>
+      Las tablas HTML están compuestas por filas (definidas por la etiqueta
+      <b>&lt;tr&gt;</b>) y celdas (definidas por las etiquetas
+      <b>&lt;td&gt;</b> para datos comunes y <b>&lt;th&gt;</b> para
+      encabezados). Las tablas también pueden tener otros elementos como título
+      (<b>&lt;caption&gt;</b>) y grupos de filas para encabezado, cuerpo y pie
+      (<b>&lt;thead&gt;</b>, <b>&lt;tbody&gt;</b>, y <b>&lt;tfoot&gt;</b>).
+    </p>
+    <h3>¿Para que sirven?</h3>
+    <p>
+      <b
+        >Son ideales para mostrar grandes cantidades de información de manera
+        clara y fácil de leer en una página web. Por ejemplo:</b
+      >
+    </p>
+
+    <ul>
+      <li>Resultados de búsqueda</li>
+      <li>Listas de precios</li>
+      <li>Calendarios</li>
+      <li>Datos de comparación</li>
+      <li>
+        Y básicamente cualquier tipo de información que se presente mejor en un
+        formato de filas y columnas.
+      </li>
+    </ul>
+
+    <p>
+      Originalmente, las <strong>tablas HTML</strong> se utilizaban también para
+      definir el diseño de una página web. Sin embargo, actualmente se
+      recomienda usar hojas de estilo en cascada (CSS) para controlar la
+      apariencia de las páginas, y las tablas HTML se utilizan principalmente
+      para su propósito original: presentar datos tabulados.
+    </p>
+    <hr />
+    <h2>Etiquetas</h2>
+    <h3>Etiquetas de estructura de tabla</h3>
+    <ul>
+      <li><b>&lt;table&gt;</b>: Define la tabla en su conjunto.</li>
+      <li><b>&lt;tr&gt;</b>: Define una fila dentro de la tabla./li></li>
+      <li>
+        <b>&lt;th&gt;</b>: Define una celda de encabezado dentro de una fila.
+        Generalmente se utiliza para el encabezado de columnas.
+      </li>
+      <li><b>&lt;td&gt;</b>: Define una celda de datos dentro de una fila.</li>
+    </ul>
+    <h3>Etiquetas de agrupación de contenido</h3>
+    <ul>
+      <li>
+        <b>&lt;thead&gt;</b>: Define el grupo de filas que contienen el
+        encabezado de la tabla.
+      </li>
+      <li>
+        <b>&lt;tbody&gt;</b>: Define el grupo de filas que contienen el cuerpo
+        principal de la tabla.
+      </li>
+      <li>
+        <b>&lt;tfoot&gt;</b>: Define el grupo de filas que contienen el pie de
+        la tabla.
+      </li>
+    </ul>
+    <p>
+      <b
+        >Estas etiquetas se utilizan en combinación para estructurar y organizar
+        el contenido de la tabla de manera semántica y accesible.</b
+      >
+      La división en estas categorías facilita la comprensión y el mantenimiento
+      del código HTML, así como también proporciona un contexto claro sobre el
+      propósito de cada parte de la tabla.
+    </p>
+    <img src="./img/estructuradetabla.png" alt="estructuradetabla" />
+    <hr />
+    <h2>Tipos de Tablas</h2>
+    <p>A continuación veremos los tipos de tablas que podemos realizar:</p>
+    <ul>
+      <li>Tablas sencillas</li>
+      <li>Tablas con columnas combinadas</li>
+      <li>Tablas anidadas</li>
+    </ul>
+    <h3>Tablas sencillas</h3>
+    <p>
+      La tabla simple muestra varios campos simultáneamente, donde el contenido
+      de cada fila está conectado de forma lógica. Una tabla puede constar de
+      tantas dimensiones y medidas como se necesiten.
+    </p>
+    <a href="./sencilla.html" target="_blank"
+      ><b>Clic para ver ejemplo de tabla sencilla</b></a
+    >
+    <br />
+    <hr />
+    <h3>Tablas con columnas combinadas</h3>
+    <p>
+      Para combinar o unir dos celdas en una tabla HTML, podemos usar los
+      atributos <b>colspan</b> y <b>rowspan</b>, los cuales nos permiten
+      fusionar celdas, creando celdas más grandes que ocupan el espacio de
+      varias celdas. Esta tarea nos da como resultado como cuando queremos
+      combinar dos celdas en una planilla de Excel.
+    </p>
+    <a href="./combinadas.html" target="_blank"
+      ><b>Clic para ver ejemplo de tabla con columnas combinadas</b></a
+    >
+    <br />
+    <hr />
+    <h3>Tablas anidadas</h3>
+    <p>
+      Las tablas anidadas en HTML es una técnica que permite colocar una tabla
+      dentro de otra, creando una jerarquía de datos dentro de una estructura
+      tabular. Esto puede ser útil para organizar información compleja de manera
+      más lógica y visualmente atractiva.
+    </p>
+    <p>
+      Imagine una tabla principal que contiene información general, y dentro de
+      algunas de sus celdas, se incluyen otras tablas más pequeñas que detallan
+      información adicional relacionada con la celda principal. Esto es lo que
+      se conoce como tablas anidadas en HTML.
+    </p>
+    <a href="./anidadas.html" target="_blank"
+      ><b>Clic para ver ejemplo de tablas anidaddas</b></a
+    >
+    <br />
+    <br />
+  </body>
+</html>
